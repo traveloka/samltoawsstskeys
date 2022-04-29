@@ -1,8 +1,14 @@
 # SAML to AWS STS Keys Conversion
+The legendary Chrome extension for SAML to AWS CLI credentials forked. PEA (Packaged Enterprise Application) variation will feature 
+* Latest library [from cdnjs](https://cdnjs.com/libraries/aws-sdk) 
+* Automatic backup and insertion of credentials into your `~/.aws/config`
+
 Google Chrome Extension which converts a SAML 2.0 assertion to AWS STS Keys (temporary credentials). Just log in to the AWS Web Management Console using your SAML IDP and the Chrome Extension will fetch the SAML Assertion from the HTTP request. The SAML Assertion is then used to call the assumeRoleWithSAML API to create the temporary credentials. (AccessKeyId, SecretAccessKey and SessionToken).
 
-The Chrome Extension can be downloaded here:
-[Google Chrome Web Store](https://chrome.google.com/webstore/detail/ekniobabpcnfjgfbphhcolcinmnbehde/)
+# TODO 
+* Ensure plugin to be plug and play on Windows, Linux, and Mac.
+* Make a developer manual on this, so that everyone can tinker with this thing.
+
 
 # Table of Contents
 * [Why this Chrome Extension?](#why)
